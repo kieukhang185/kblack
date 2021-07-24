@@ -129,7 +129,7 @@ img{
 
 /* hero */
 .hero{
-    background-image:  url(../images/banner.jpg);
+    background-image:  url(./images/banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,6 +236,9 @@ img{
     .hero,
     .hero .glide__slides{
         margin: 0;
+        /* padding: 0 3rem; */
+    }
+    .hero .glide__slides{
         padding: 0 3rem;
     }
     .hero .left{
@@ -391,18 +394,18 @@ img{
 }
 @media only screen and (max-width: 996px){
     .web .card-item{
-        width: 60rem;
+        width: 85%;
     }
 }
 @media only screen and (max-width: 768px){
     .web .card-item{
-        width: 55rem;
+        width: 95%;
         margin: 0;
     }
 }
 @media only screen and (max-width: 567px){
     .web .card-item{
-        width: 45rem;
+        width: 100%;
         margin: 0;
     }
     .card-box .card-item h2{
