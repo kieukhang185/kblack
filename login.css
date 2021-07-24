@@ -299,7 +299,20 @@ form .btn:hover{
         
     }
 }
-
+@media only screen and (max-width: 450px){
+    .web .card-item .card-info a{
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+        padding: 0.5rem;
+    }
+    .web .card-item .card-info .btn-dow{
+        margin-bottom: 10px;
+    }
+    .card-item .card-info{
+        height: 18rem;
+    }
+}
 
 /* footer */
 footer{
