@@ -248,9 +248,10 @@ form .btn:hover{
     margin-bottom: 10px;
     text-shadow: 0 2px 3px #74e463;
 }
-.card-item .item-info h3{
-    font-size: 1.2rem;
-    font-weight: 200;
+.card-item .item-info p{
+    height: 5rem;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
 }
 .card-center .card-item img{
     width: 100%;
