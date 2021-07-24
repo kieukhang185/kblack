@@ -372,7 +372,7 @@ img{
     font-size: 3.5rem;
     text-align: center;
     position: relative;
-    text-shadow: 0 3px 5px white;
+    text-shadow: 0 5px 5px white;
     transform: translate(0, -300%);
     cursor: pointer;
 }
@@ -382,6 +382,8 @@ img{
     cursor: pointer;
     object-fit: cover;
     transition: all 500ms linear;
+    box-shadow: 0 5px 10px #222;
+    border-radius: 5px;
 }
 .card-item:hover .img-box img{
     transform: scale(1.1);
@@ -493,7 +495,7 @@ input[type="submit"]:hover{
 
 .up{
     position: fixed;
-    bottom: 8%;
+    bottom: 6%;
     right: 2%;
     padding: 5px 5px;
     border-radius: 50%;
