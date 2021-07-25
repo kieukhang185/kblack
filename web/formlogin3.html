@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login #3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            font-family: sans-serif;
+            background-image: url(../images/formlogin3.jpg);
+            background-position: center;
+            background-size: cover;
+            max-width: 114rem;
+            max-height: 100vh;
+            width: 100%;
+        }
+        .card-box{
+            width: 400px;
+            height: 520px;
+            background-color: white;
+            margin: 5% auto;
+            padding: 2rem;
+            box-shadow: 0px 2px 10px 0px #b9a361;
+            border-radius: 10px;
+        }
+        .card-box .title{
+            font-size: 1.6rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .card-box form{
+            padding: 1rem;
+        }
+        .card-box form input{
+            width: 100%;
+            height: 2.5rem;
+            margin-bottom: 1.5rem;
+            text-indent: 1rem;
+            border-radius: 5px;
+            border: 1px solid rgb(129, 127, 127);
+            outline: none;
+        }
+        .card-box form input[type="submit"]{
+            background-image: linear-gradient(45deg, rgb(27, 156, 252), rgb(252, 66, 123));
+            border: 0;
+            font-size: 1rem;
+            color: white;
+            font-weight: 700;
+            text-indent: 0;
+            cursor: pointer;
+            
+        }
+        .card-box form input[type="submit"]:hover{
+            background-image: linear-gradient(45deg, rgb(24, 127, 206), rgb(224, 53, 104));
+        }
+        .login-with{
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .login-with h2{
+            font-size: 1rem;
+            font-weight: 300;
+            color: #222;
+            margin-bottom: 1rem;
+        }
+        .login-with a{
+            padding: .8rem 1rem;
+            
+        }
+        .login-with button{
+            width: 8rem;
+            height: 2.5rem;
+            background: transparent;
+            outline: none;
+            border: 1px solid rgb(87, 85, 85);
+            border-radius: 5px;
+        }
+        .login-with .fab{
+            margin-right: 0.2rem;
+        }
+        .login-with .btn-fb{
+            color: rgb(36, 36, 243);
+            font-size: 1rem;
+            font-weight: 600;
+
+        }
+        .login-with .btn-gl{
+            color: rgb(252, 32, 32);
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .signup{
+            display: inline;
+            text-align: center;
+        }
+        .signup h3{
+            font-weight: 200;
+            font-size: 1rem ;
+        }
+        .signup h3 a{
+            color: rgb(24, 127, 206);
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="card-box">
+            <div class="title">
+                <h1>Login Form</h1>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Email or Username">
+                <input type="password" placeholder="Password">
+                <input type="submit" value="LOGIN">
+            </form>
+            <div class="login-with">
+                <h2>Or login with</h2>
+                <button><a href="#" class="btn-fb"><i class="fab fa-facebook-square"></i>Facebook</a></button>
+                <button><a href="#" class="btn-gl"><i class="fab fa-google-plus"></i>Google</a></button>
+            </div>
+            <div class="signup">
+                <h3>No a memner? <a href="">Signup now</a></h3>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
