@@ -372,7 +372,7 @@ img{
     font-size: 3.5rem;
     text-align: center;
     position: relative;
-    text-shadow: 0 5px 5px white;
+    text-shadow: 2px 2px 2px white;
     transform: translate(0, -300%);
     cursor: pointer;
 }
