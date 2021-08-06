@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Form Login #4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(135deg, rgba(232, 67, 147,1.0), rgba(142, 68, 173,1.0));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            height: 70%;
+            background-image: linear-gradient(135deg, rgba(192, 57, 43,1.0), rgba(9, 132, 227,1.0));
+            box-shadow:  0 2px 15px #222;
+            z-index: 10;
+        }
+        .box{
+            width: 50%;
+            height: 90%;
+            margin-top: 4.3%;
+            background: rgb(22, 25, 29);
+            text-align: center;
+            padding: 20px 10px;
+
+        }
+        .box h1{
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        .box h3{
+            color: #777;
+            font-size: 0.8rem;
+        }
+        .box form{
+            padding: 1rem 0;
+        }
+        .box form input{
+            display:  block;
+            width: 60%;
+            height: 2rem;
+            margin: 1rem auto;
+            text-align: center;
+            background: transparent;
+            outline: none;
+            border: 1px solid rgba(0, 210, 211,1.0);
+            border-radius: 20px;
+        }
+        .box form input[type="submit"]{
+            border: 1px solid rgba(76, 209, 55,1.0);
+            color: #fff;
+            width: 30%;
+            cursor: pointer;
+        }
+        .box form a{
+            text-decoration: none;
+            color: #555;
+            font-size: 0.8rem;
+        }
+        .box .icon i{
+            color: #fff;
+            padding: 0 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="card">
+            <div class="box">
+                <h1>Login</h1>
+                <h3>Please enter your login and password!</h3>
+                <form action="">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <a href="#">Fogot Password?</a>
+                    <input type="submit" value="Login">
+                </form>
+                <div class="icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
