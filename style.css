@@ -347,7 +347,7 @@ img{
 }
 @media only screen and (max-width: 450px){
     .web .card-item{
-        width: 100%;
+        width: 90%;
         padding: 0;
     }
 }
