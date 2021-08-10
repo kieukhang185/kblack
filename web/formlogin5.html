@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login #5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 62.5%;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 100vh;
+            background-image: linear-gradient(45deg, #e84393, #8e44ad);
+        }
+        .card{
+            margin: 0 auto;
+            width: 35%;
+            height: 450px;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 5rem 4rem;
+            border-top-left-radius: 150px;
+            border-bottom-right-radius: 150px;
+            box-shadow: 0.5px 0.5px 10px #222;
+        }
+        .title{
+            text-align: right;
+            color: #fff;
+        }
+        .title h2{
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .title h3{
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-bottom: 60px;
+        }
+        form input{
+            display: block;
+            width: 100%;
+            height: 5rem;
+            text-indent: 1rem;
+            margin: 2rem auto;
+            background: transparent;
+            border: 1px solid #444;
+            outline: none;
+            color: #fff;
+            border-radius: 30px;
+        }
+        ::placeholder{
+            color: #fff;
+        }
+        form input[type="submit"]{
+            width: 25%;
+            height: 4.5rem;
+            text-indent: 0;
+            margin: 0;
+            border-radius: 5px;
+            background: #e84393;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="title">
+                <h2>Login Form</h2>
+                <h3>Stylish Login Form for Website</h3>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Enter email">
+                <input type="password" placeholder="Password">
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
